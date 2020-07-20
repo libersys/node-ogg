@@ -1,4 +1,7 @@
 /build
+/dist
 /node_modules
+/coverage
+/.env
 /*.ogg
 /?.js
