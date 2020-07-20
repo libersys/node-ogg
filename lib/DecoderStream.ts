@@ -1,7 +1,8 @@
 import Debug from 'debug';
-import binding from './binding';
 import { Readable } from 'stream';
+
 import OggPacket from './OggPacket';
+import binding from './binding';
 
 const debug = Debug('ogg:decoder');
 

@@ -1,9 +1,9 @@
 import Debug from 'debug';
-import binding from './binding';
-import { inherits } from 'util';
-import { Transform, TransformCallback, Writable, WritableOptions } from 'stream';
+import { TransformCallback, Writable, WritableOptions } from 'stream';
+
 import DecoderStream from './DecoderStream';
 import OggPage from './OggPage';
+import binding from './binding';
 
 const debug = Debug('ogg:decoder');
 
